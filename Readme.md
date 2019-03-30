@@ -1,7 +1,7 @@
 # Личный проект «Мишка» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Артем Шомин](https://up.htmlacademy.ru/adaptive/16/user/426679).
-* Наставник: `Неизвестно`.
+* Наставник: [Владислав Ахметвалиев](https://htmlacademy.ru/profile/id530961).
 
 ---
 
