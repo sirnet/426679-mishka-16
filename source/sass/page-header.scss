@@ -1,0 +1,43 @@
+.page-header{
+  position: relative;
+  height: 568px;
+  .menu-nav{
+    position: absolute;
+    display: flex;
+    height: 79px;
+    width: 100vw;
+    box-shadow: 0 1px 0 #ececec, inset 0 1px 0 #ececec;
+    align-items: center;
+    justify-content: center;
+    background: white;
+  }
+  .menu-nav__wrap{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100vw;
+    height: 79px;
+    .menu-nav__icon-open{
+      margin: 30px 30px;
+      width: 20px;
+      height: 14px;
+      background: url("../img/icon-menu-open.svg");
+      align-self: flex-start;
+    }
+  }
+  .page-header__title{
+    padding-top: 100px;
+    position: absolute;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .page-header__image{
+    padding-top: 60px;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+}
