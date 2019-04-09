@@ -17,12 +17,37 @@
     justify-content: flex-end;
     width: 320px;
     height: 79px;
-    .menu-nav__icon-open{
+    .menu-nav__icon--open{
+      content: url("../img/icon-menu-open.svg");
       margin: 30px 30px;
       width: 20px;
       height: 14px;
-      background: url("../img/icon-menu-open.svg");
       align-self: flex-start;
+      &:hover{
+        content: url("../img/icon-menu-close.svg");
+        margin: 30px 30px;
+        width: 20px;
+        height: 14px;
+        align-self: flex-start;
+      }
+    }
+    .menu-nav__list{
+      display: none;
+    }
+    .menu-nav__list:focus ~ .menu-nav__icon--open::before, .menu-nav__list:active ~ .menu-nav__icon--open::before{
+      padding-top: 395px;
+      text-align: center;
+      z-index: 1;
+      list-style: none;
+      .menu-nav__link{
+        text-decoration: none;
+      }
+      .menu-nav__item{
+        width: 320px;
+        height: 79px;
+        background: #ffffff;
+        box-shadow: 0 1px 0 #ececec, inset 0 1px 0 #ececec;
+      }
     }
   }
   .page-header__title{
