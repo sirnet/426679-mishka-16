@@ -9,11 +9,18 @@ body {
   font: 14px OpenSans;
   color: #000000;
 }
-@import "page-header.scss";
-@import "categories.scss";
-@import "cards.scss";
-@import "inform.scss";
-@import "reviews.scss";
-@import "contacts.scss";
-@import "footer.scss";
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+@import "header/page-header.scss";
+@import "main/categories.scss";
+@import "main/cards.scss";
+@import "main/inform.scss";
+@import "main/reviews.scss";
+@import "main/contacts.scss";
+@import "footer/footer.scss";
 
