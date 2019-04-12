@@ -1,5 +1,12 @@
 @import "fonts";
-
+@import "blocks/page-header.scss";
+@import "blocks/categories.scss";
+@import "blocks/cards.scss";
+@import "blocks/inform.scss";
+@import "blocks/reviews.scss";
+@import "blocks/contacts.scss";
+@import "blocks/footer.scss";
+@import "blocks/catalog.scss";
 body {
   max-width: 320px;
   height: 100vh;
@@ -16,11 +23,5 @@ body {
   height: 1px;
   margin: -1px;
 }
-@import "header/page-header.scss";
-@import "main/categories.scss";
-@import "main/cards.scss";
-@import "main/inform.scss";
-@import "main/reviews.scss";
-@import "main/contacts.scss";
-@import "footer/footer.scss";
+
 
