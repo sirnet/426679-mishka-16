@@ -1,54 +1,64 @@
-.cards__wrap{
+.cards__wrap {
   height: 700px;
   padding-left: 30px;
-  .cards__tittle{
-    color: #000000;
-    font-size: 25px;
-    font-weight: 700;
-    margin-top: 30;
-    margin-bottom: 0;
-  }
-  .cards__week{
-    color: #63d1bb;
-    font-size: 17px;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
-  .cards__info{
-    color: #444444;
-    font-size: 15px;
-    font-weight: 400;
-    width: 249px;
-  }
-  .cards__list{
-    width: 260px;
-    border-collapse: collapse;
-    font-size: 15px;
-    font-weight: 400;
-    td{
-      border-bottom: 1px solid #f1f1f1;
-      padding-right: 10px;
-    }
-  }
-  .cards__image{
-    padding-top: 30px;
-  }
-  .cards__value{
-    color: #444444;
-    font-size: 17px;
-    font-weight: 700;
-    text-align: center;
-    margin-left: -30px;
-  }
-  .cards__image-zigzag{
-    background-image: url("../img/bg-zigzag-line.svg");
-    width: 320px;
-    height: 6px;
-    margin-left: -30px;
-    padding-top: 36px;
-  }
 }
-.button{
+
+.cards__tittle {
+  color: #000000;
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 30;
+  margin-bottom: 0;
+}
+
+.cards__week {
+  color: #63d1bb;
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.cards__info {
+  color: #444444;
+  font-size: 15px;
+  font-weight: 400;
+  width: 249px;
+}
+
+.cards__list {
+  width: 260px;
+  border-collapse: collapse;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+td {
+  border-bottom: 1px solid #f1f1f1;
+  padding-right: 10px;
+}
+
+
+.cards__image {
+  padding-top: 30px;
+}
+
+.cards__value {
+  color: #444444;
+  font-size: 17px;
+  font-weight: 700;
+  text-align: center;
+  margin-left: -30px;
+}
+
+.cards__image-zigzag {
+  background-image: url("../img/bg-zigzag-line.svg");
+  width: 320px;
+  height: 6px;
+  margin-left: -30px;
+  padding-top: 36px;
+}
+
+.button {
   border: 2px solid #444444;
   width: 260px;
   height: 52px;

@@ -7,15 +7,18 @@
 @import "blocks/contacts.scss";
 @import "blocks/footer.scss";
 @import "blocks/catalog.scss";
+
 body {
   max-width: 320px;
   height: 100vh;
   padding: 0;
   margin: 0;
-  overflow-x:  hidden;
-  font: 14px OpenSans;
+  overflow-x: hidden;
+  font-size: 14px;
+  font-family: "OpenSans", sans-serif;
   color: #000000;
 }
+
 .visually-hidden {
   position: absolute;
   clip: rect(0 0 0 0);

@@ -39,6 +39,7 @@
     "node": "8.15"
   },
   "dependencies": {
+    "editorconfig": "^0.15.3",
     "plumber": "^0.4.8"
   }
 }
