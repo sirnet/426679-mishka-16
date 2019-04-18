@@ -1,3 +1,9 @@
+.contacts{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 .contacts__wrap {
   padding-left: 30px;
   font-size: 15px;
@@ -27,3 +33,38 @@
   margin-left: 30px;
   margin-top: 40px;
 }
+
+@media (min-width: 768px){
+
+  .contacts {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .contacts__wrap {
+    padding-left: 30px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 670px;
+  }
+
+  .contacts__tittle{
+    font-size: 43px;
+  }
+
+  tbody{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .contacts__post-address{
+    width: 219px;
+    padding: 0;
+  }
+  .contacts__mail-address{
+    border: none;
+  }
+}
+
