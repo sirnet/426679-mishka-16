@@ -7,6 +7,7 @@
 .inform__wrap {
   width: 290px;
   margin-left: 30px;
+  margin-top: 30px;
 }
 
 .inform__tittle {
@@ -18,6 +19,7 @@
   padding-left: 0;
   width: 320px;
 }
+
 .inform__item {
   width: 250px;
   list-style: none;
@@ -36,7 +38,7 @@
   content: url("../img/icon-feature-heart.svg");
 }
 
-.inform__item:nth-child(4)::before{
+.inform__item:nth-child(4)::before {
   content: url("../img/icon-feature-ball.svg");
 }
 
@@ -48,13 +50,12 @@
   content: url("../img/icon-feature-gift.svg");
 }
 
-.inform__description{
+.inform__description {
   font-size: 17px;
   font-weight: 700;
 }
 
-@media (min-width: 768px){
-
+@media (min-width: 768px) {
   .inform {
     display: flex;
     justify-content: center;
@@ -65,43 +66,53 @@
     display: block;
   }
 
-  .inform__tittle{
+  .inform__tittle {
     height: 42px;
     font-size: 43px;
   }
+
   .inform__description {
     font-size: 20px;
   }
-  .inform__wrap{
-    margin-left: 30px;
+
+  .inform__wrap {
+    margin-left: -30px;
     width: 670px;
     padding: 0;
   }
-  .inform__list{
+
+  .inform__list {
     display: flex;
     flex-wrap: wrap;
     width: 680px;
   }
-  .inform__item{
+
+  .inform__item {
     width: 300px;
     margin-right: 40px;
   }
-  .inform__item:nth-child(1){
+
+  .inform__item:nth-child(1) {
     order: 1;
   }
-  .inform__item:nth-child(2){
+
+  .inform__item:nth-child(2) {
     order: 3;
   }
-  .inform__item:nth-child(3){
+
+  .inform__item:nth-child(3) {
     order: 5;
   }
-  .inform__item:nth-child(4){
+
+  .inform__item:nth-child(4) {
     order: 2;
   }
-  .inform__item:nth-child(5){
+
+  .inform__item:nth-child(5) {
     order: 4;
   }
-  .inform__item:nth-child(6){
+
+  .inform__item:nth-child(6) {
     order: 6;
   }
 }

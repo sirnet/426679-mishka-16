@@ -53,12 +53,12 @@
   opacity: 0.2;
 }
 
-@media (min-width: 768px){
-
+@media (min-width: 768px) {
   .categories {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: -125px;
   }
 
   .categories__image-zigzag {
@@ -69,13 +69,8 @@
     height: 24px;
   }
 
-  .categories {
-    margin-top: -125px;
-  }
-
   .categories__block {
     width: 334px;
     height: 119px;
   }
-
 }

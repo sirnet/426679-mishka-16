@@ -1,12 +1,4 @@
 @import "fonts";
-@import "blocks/page-header.scss";
-@import "blocks/categories.scss";
-@import "blocks/cards.scss";
-@import "blocks/inform.scss";
-@import "blocks/reviews.scss";
-@import "blocks/contacts.scss";
-@import "blocks/footer.scss";
-@import "blocks/catalog.scss";
 
 body {
   min-width: 320px;
@@ -39,3 +31,12 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+@import "blocks/page-header.scss";
+@import "blocks/categories.scss";
+@import "blocks/cards.scss";
+@import "blocks/inform.scss";
+@import "blocks/reviews.scss";
+@import "blocks/contacts.scss";
+@import "blocks/footer.scss";
+@import "blocks/catalog.scss";
