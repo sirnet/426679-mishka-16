@@ -118,6 +118,7 @@
     justify-content: flex-start;
     width: 768px;
     position: relative;
+    z-index: 1;
   }
 
   .menu-nav__icon--close {
@@ -127,9 +128,9 @@
   .menu-nav__list {
     display: block;
     background: none;
-    position: absolute;
-    width: 100%;
-    top: 0;
+    position: relative;
+    width: 768px;
+    height: 100%;
   }
 
   .menu-nav__logo {
@@ -143,10 +144,12 @@
 
   .menu-nav__logo::after {
     content: url("/img/logo-tablet.svg");
-    display: block;
+
     background-repeat: no-repeat;
     width: 113px;
     height: 46px;
+    position: relative;
+    z-index: 1;
   }
 
   .menu-nav__item {
@@ -162,13 +165,13 @@
   }
 
   .menu-nav__item:nth-child(1) {
-    left: -5px;
-    top: 80px;
+    left: -170px;
+    top: -50px;
   }
 
   .menu-nav__item:nth-child(2) {
-    left: 180px;
-    top: 80px;
+    left: 10px;
+    top: -50px;
   }
 
   .menu-nav__item:nth-child(3) a {
@@ -178,14 +181,16 @@
   .menu-nav__item:nth-child(3)::before {
     content: url("/img/icon-search.svg");
     position: absolute;
-    left: 450px;
     opacity: 0.3;
     cursor: pointer;
+    left: 320px;
+    top: -90px;
   }
 
   .menu-nav__item:nth-child(4) {
-    right: 25px;
     width: 250px;
+    left: 350px;
+    top: -120px;
   }
 
   .menu-nav__item:nth-child(4) a::before {
@@ -196,11 +201,12 @@
   .menu-nav__item:nth-child(4)::after {
     content: "Бесплатная доставка";
     position: absolute;
-    top: 110px;
+    top: 100px;
     width: 100%;
-    right: -25px;
+    right: -35px;
     font-weight: normal;
     font-size: 15px;
+    opacity: 0.3;
   }
 
   .page-haeder__wrap {
@@ -220,5 +226,64 @@
     background: url("/img/hero-tablet@1x.jpg") no-repeat center;
     min-height: 746px;
     min-width: 768px;
+  }
+}
+
+@media (min-width:1150px){
+  .menu-nav__wrap{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .menu-nav__logo::after {
+    content: url("/img/logo-desktop.svg");
+    background-repeat: no-repeat;
+    width: 149px;
+    height: 72px;
+  }
+
+  .page-header__image {
+    background: url("/img/hero-desktop@1x.jpg") no-repeat center;
+    min-height: 746px;
+    min-width: 1150px;
+  }
+  .menu-nav__list{
+    left: 0;
+  }
+
+  .menu-nav__item:nth-child(1) {
+    left: -650px;
+    top: -50px;
+  }
+
+  .menu-nav__item:nth-child(2) {
+    left: 10px;
+    top: -50px;
+  }
+
+  .menu-nav__item:nth-child(3) a {
+    display: none;
+  }
+
+  .menu-nav__item:nth-child(3)::before {
+    content: url("/img/icon-search.svg");
+    position: absolute;
+    opacity: 0.3;
+    cursor: pointer;
+    left: 320px;
+    top: -90px;
+  }
+
+  .menu-nav__item:nth-child(4) {
+    width: 250px;
+    left: 350px;
+    top: -120px;
+  }
+
+  .menu-nav__item:nth-child(4) a::before {
+    position: absolute;
+    left: 30px;
   }
 }
