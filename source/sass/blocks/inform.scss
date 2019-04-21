@@ -116,3 +116,21 @@
     order: 6;
   }
 }
+
+@media (min-width: 1150px){
+  .inform__wrap {
+    width: 1050px;
+    margin: 0;
+    margin-top: 60px;
+  }
+
+  .inform__tittle{
+    padding-left: 150px;
+    padding-bottom: 43px;
+  }
+
+  .inform__list{
+    padding-left: 150px;
+  }
+
+}
