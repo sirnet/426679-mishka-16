@@ -134,3 +134,39 @@
     display: none;
   }
 }
+
+@media (min-width: 1150px) {
+  .reviews__wrap {
+    width: 1050px;
+    margin: 0;
+  }
+
+  .reviews__image {
+    margin: -20px;
+  }
+
+  .reviews__tittle {
+    font-size: 53px;
+  }
+
+  .reviews__tittle,
+  .reviews__text,
+  .reviews__author-name {
+    padding-left: 150px;
+  }
+
+  .reviews__text {
+    width: 800px;
+    top: 170px;
+  }
+
+  .reviews__write {
+    width: 175px;
+    height: 52px;
+  }
+
+  .reviews__button {
+    display: flex;
+    justify-content: flex-end;
+  }
+}

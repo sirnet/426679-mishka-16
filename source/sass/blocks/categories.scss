@@ -1,3 +1,9 @@
+.page-main {
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+}
+
 .categories {
   position: relative;
   margin-top: -70px;
@@ -72,5 +78,29 @@
   .categories__block {
     width: 334px;
     height: 119px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .categories__block {
+    width: 525px;
+    display: block;
+  }
+
+  .categories svg {
+    width: 1250px;
+    height: 34px;
+  }
+
+  .categories__link {
+    float: left;
+    margin: auto 0;
+    padding-top: 30px;
+    padding-left: 35px;
+  }
+
+  .categories__icon {
+    float: right;
+    margin-top: 20px;
   }
 }

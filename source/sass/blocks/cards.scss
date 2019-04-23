@@ -160,3 +160,63 @@
     margin-bottom: 50px;
   }
 }
+
+@media (min-width: 1150px) {
+  .cards__wrap {
+    position: relative;
+    display: flex;
+    width: 1050px;
+    margin-top: 30px;
+    padding-left: 0;
+    margin-left: 0;
+    height: 636px;
+  }
+
+  .cards__image {
+    display: block;
+    content: url("/img/triple-set-desktop@1x.jpg");
+    width: 525px;
+    height: 636px;
+    position: absolute;
+    top: 0;
+  }
+
+  .cards__week {
+    left: 0;
+    top: 53px;
+    height: 42px;
+    padding-left: 35px;
+  }
+
+  .cards__tittle {
+    z-index: 1;
+    position: relative;
+    left: 150px;
+    top: 35px;
+    font-size: 53px;
+  }
+
+  .cards__info {
+    position: relative;
+    left: 150px;
+    top: 42px;
+  }
+
+  .cards__list {
+    position: relative;
+    left: 150px;
+    top: 40px;
+  }
+
+  .cards__value {
+    width: 53%;
+    top: 120px;
+    position: relative;
+  }
+
+  .cards__button {
+    position: relative;
+    left: 150px;
+    top: 128px;
+  }
+}

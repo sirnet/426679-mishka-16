@@ -1,4 +1,8 @@
 .catalog__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -7,7 +11,6 @@
 .catalog__item {
   width: 260px;
   border: 1px solid #ececec;
-  margin-left: 30px;
   margin-top: 30px;
 }
 
@@ -68,4 +71,271 @@
   width: 192px;
   margin-left: 34px;
   margin-bottom: 33px;
+}
+
+.page-header__catalog {
+  background-color: #f1f1f1;
+  width: 320px;
+  height: 180px;
+}
+
+.page-header__catalog-title {
+  position: absolute;
+  font-size: 27px;
+  width: 280px;
+  margin-top: 76px;
+}
+
+.page-main__image-zigzag {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .page-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .page-header__catalog {
+    width: 768px;
+    height: 226px;
+  }
+
+  .page-header__catalog-title {
+    font-size: 43px;
+    width: 400px;
+  }
+
+  .page-main__image-zigzag {
+    margin-top: -20px;
+    width: 768px;
+    display: block;
+  }
+
+  .catalog {
+    display: flex;
+    justify-content: center;
+  }
+
+  .catalog__list {
+    display: flex;
+    align-items: flex-start;
+    width: 690px;
+  }
+
+  .catalog__item {
+    display: flex;
+    position: relative;
+    width: 667px;
+    height: 334px;
+  }
+
+  .catalog__image {
+    display: none;
+    width: 334px;
+    height: 334px;
+  }
+
+  .catalog li:nth-child(1) {
+    background: url("/img/photo-hare-tablet@1x.jpg");
+    background-repeat: no-repeat;
+  }
+
+  .catalog li:nth-child(2) {
+    background: url("/img/photo-bowl-tablet@1x.jpg");
+    background-repeat: no-repeat;
+  }
+
+  .catalog li:nth-child(3) {
+    background: url("/img/photo-toys-tablet@1x.jpg");
+    background-repeat: no-repeat;
+  }
+
+  .catalog li:nth-child(4) {
+    background: url("/img/video-tablet@1x.jpg");
+    background-repeat: no-repeat;
+    width: 668px;
+    height: 743px;
+
+    .catalog__item-play {
+      width: 668px;
+      margin: 0;
+      position: absolute;
+      top: 190px;
+    }
+
+    .catalog__icon {
+      position: absolute;
+      bottom: 227px;
+      left: 42px;
+    }
+
+    .catalog__title {
+      top: unset;
+      left: 65px;
+      bottom: 232px;
+      height: 20px;
+      width: 245px;
+      margin: 0;
+    }
+
+    .catalog__title-text {
+      top: unset;
+      left: 45px;
+      bottom: 160px;
+      height: 20px;
+      width: 581px;
+      margin: 0;
+    }
+
+    .catalog__order {
+      position: absolute;
+      width: 584px;
+      bottom: 0;
+    }
+
+    br {
+      display: none;
+    }
+  }
+
+  .catalog__title {
+    position: absolute;
+    top: 29px;
+    left: 361px;
+    font-size: 20px;
+  }
+
+  .catalog__title-text {
+    position: absolute;
+    top: 65px;
+    left: 361px;
+    border: none;
+    font-size: 15px;
+  }
+
+  .catalog__table {
+    position: absolute;
+    bottom: 0;
+    left: 361px;
+  }
+
+  li:nth-child(3) {
+    .catalog__title-text {
+      padding-top: 30px;
+    }
+  }
+}
+
+@media (min-width: 1150px) {
+  .page-header__catalog {
+    width: 100vw;
+  }
+
+  .page-main__image-zigzag {
+    margin-top: -20px;
+    width: 100vw;
+    height: 34px;
+    background: repeat;
+  }
+
+  .catalog__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1046px;
+  }
+
+  .catalog__item {
+    margin-right: 30px;
+  }
+
+  .catalog li {
+    width: 316px;
+    height: 659px;
+
+    .catalog__title {
+      left: unset;
+      top: unset;
+      bottom: 135px;
+    }
+
+    .catalog__title-text {
+      left: unset;
+      top: unset;
+      bottom: 75px;
+    }
+
+    .catalog__table {
+      left: unset;
+      top: unset;
+      bottom: 0;
+      width: 280px;
+      padding-top: 15px;
+      border-top: 1px solid #ececec;
+    }
+  }
+
+  .catalog li:nth-child(1) {
+    background: url("/img/photo-hare-desktop@1x.jpg");
+    background-repeat: no-repeat;
+  }
+
+  .catalog li:nth-child(2) {
+    background: url("/img/photo-bowl-desktop@1x.jpg");
+    background-repeat: no-repeat;
+  }
+
+  .catalog li:nth-child(3) {
+    background: url("/img/photo-hare-desktop@1x.jpg");
+    background-repeat: no-repeat;
+
+    .catalog__title {
+      bottom: 110px;
+      line-height: 24px;
+    }
+
+    .catalog__title-text {
+      bottom: 50px;
+      width: 300px;
+    }
+  }
+
+  .catalog li:nth-child(4) {
+    background: url("/img/video-desktop@1x.jpg");
+    background-repeat: no-repeat;
+    width: 1049px;
+    height: 455px;
+
+    .catalog__title {
+      left: unset;
+      bottom: unset;
+      width: 148px;
+      right: 135px;
+      top: 70px;
+    }
+
+    .catalog__icon {
+      left: unset;
+      bottom: unset;
+      right: 255px;
+      top: 35px;
+    }
+
+    .catalog__title-text {
+      left: unset;
+      bottom: unset;
+      right: 60px;
+      top: 140px;
+      width: 222px;
+    }
+
+    .catalog__order {
+      left: unset;
+      bottom: 0;
+      right: 50px;
+      top: unset;
+      width: 230px;
+    }
+  }
 }
