@@ -125,13 +125,14 @@
   .contacts__tittle::before {
     content: url("../img/icon-flag.svg");
     position: absolute;
-    top: 30px;
-    left: 60px;
+    top: 52px;
+    left: 79px;
   }
 
   .contacts__tittle {
     text-align: center;
-    padding-left: 55px;
+    padding-left: 70px;
+    padding-top: 15px;
     font-size: 53px;
     width: 500px;
     margin-bottom: 50px;
@@ -143,7 +144,8 @@
     right: 0;
     width: 525px;
     height: 457px;
-    margin: 0;
+    margin-top: -10px;
+    margin-right: -13px;
   }
 
   .contacts tbody {
@@ -151,11 +153,27 @@
     flex-direction: column;
     text-align: left;
     width: 408px;
-    margin-left: 170px;
+    margin-left: 187px;
+    font-size: 17px;
+    position: relative;
   }
 
-  .contacts__list tr:nth-child(2) {
-    margin-top: 30px;
+  .contacts__list {
+    position: relative;
+    height: 210px;
+  }
+
+  .contacts__list tr:nth-child(1) {
+    .contacts__list td:nth-child(1) {
+      position: absolute;
+      top: 20px;
+    }
+
+    .contacts__list td:nth-child(2) {
+      position: absolute;
+      left: 50px;
+
+    }
   }
 
   .contacts__write {
@@ -163,5 +181,6 @@
     width: 230px;
     height: 52px;
     left: 200px;
+    bottom: 10px;
   }
 }

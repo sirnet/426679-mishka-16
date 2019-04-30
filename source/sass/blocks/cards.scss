@@ -166,7 +166,7 @@
     position: relative;
     display: flex;
     width: 1050px;
-    margin-top: 30px;
+    margin-top: 70px;
     padding-left: 0;
     margin-left: 0;
     height: 636px;
@@ -182,8 +182,8 @@
   }
 
   .cards__week {
-    left: 0;
-    top: 53px;
+    left: 12px;
+    top: 68px;
     height: 42px;
     padding-left: 35px;
   }
@@ -191,32 +191,43 @@
   .cards__tittle {
     z-index: 1;
     position: relative;
-    left: 150px;
-    top: 35px;
+    left: 169px;
+    top: 52px;
     font-size: 53px;
   }
 
   .cards__info {
     position: relative;
-    left: 150px;
-    top: 42px;
+    left: 175px;
+    top: 62px;
+    font-size: 17px;
+    line-height: 30px;
+    width: 282px;
   }
 
   .cards__list {
     position: relative;
-    left: 150px;
-    top: 40px;
+    left: 174px;
+    top: 57px;
   }
+
+  .cards__list td {
+    padding-right: 29px;
+    padding-bottom: 8px;
+}
 
   .cards__value {
     width: 53%;
-    top: 120px;
+    top: 91px;
+    left: 43px;
     position: relative;
+    font-size: 20px;
   }
 
   .cards__button {
     position: relative;
-    left: 150px;
-    top: 128px;
+    left: 175px;
+    top: 102px;
+    width: 292px;
   }
 }

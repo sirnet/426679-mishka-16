@@ -121,15 +121,92 @@
   .inform__wrap {
     width: 1050px;
     margin: 0;
-    margin-top: 60px;
+    margin-top: 111px;
+    padding-left: 10px;
   }
 
   .inform__tittle {
-    padding-left: 150px;
-    padding-bottom: 43px;
+    padding-left: 165px;
+    padding-bottom: 21px;
+    font-size: 53px;
   }
 
   .inform__list {
-    padding-left: 150px;
+    padding-left: 171px;
   }
+
+  .inform__description {
+   margin-top: 12px;
+  }
+
+  .inform__item {
+    height: 155px;
+    padding-bottom: 0;
+    position: relative;
+  }
+
+  .inform__item:nth-child(1)::before {
+    position: absolute;
+    left: 7px;
+  }
+
+  .inform__item:nth-child(3)::before {
+    position: absolute;
+    left: 8px;
+    top: 7px;
+  }
+
+  .inform__item:nth-child(4)::before {
+    position: absolute;
+    left: 13px;
+    top: 3px;
+  }
+
+  .inform__item:nth-child(5)::before {
+    position: absolute;
+    left: 4px;
+    top: 5px;
+  }
+
+  .inform__item:nth-child(6)::before {
+    position: absolute;
+    left: 12px;
+    top: 2px;
+  }
+
+  .inform__item:nth-child(1) p{
+    position: absolute;
+    top: 40px;
+  }
+
+  .inform__item:nth-child(2) p{
+    position: absolute;
+    top: 40px;
+  }
+
+  .inform__item:nth-child(3) p{
+    position: absolute;
+    top: 40px;
+  }
+
+  .inform__item:nth-child(4) p{
+    position: absolute;
+    top: 41px;
+    left: 10px;
+  }
+
+  .inform__item:nth-child(5) p{
+    position: absolute;
+    top: 41px;
+    left: 10px;
+    width: 310px;
+  }
+
+  .inform__item:nth-child(6) p{
+    position: absolute;
+    top: 41px;
+    left: 10px;
+    width: 310px;
+  }
+
 }
